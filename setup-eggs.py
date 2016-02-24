@@ -57,7 +57,6 @@ setup(
                 'nltk_contrib.tiger.utils',
                 'nltk_contrib.toolbox'
                 ],
-    install_requires=['setuptools','nltk']
+    install_requires=['setuptools','nltk'],
     zip_safe=False, # since normal files will be present too?
-    install_requires=['setuptools'],
     )
