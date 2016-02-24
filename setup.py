@@ -10,7 +10,6 @@
 # For license information, see LICENSE.TXT
 
 from distutils.core import setup
-import nltk
 
 setup(
     #############################################
@@ -18,15 +17,7 @@ setup(
     name = "nltk_contrib",
     description = "NLTK-Contrib",
     
-    version = nltk.__version__,
-    url = nltk.__url__,
-    long_description = nltk.__longdescr__,
-    license = nltk.__license__,
-    keywords = nltk.__keywords__,
-    maintainer = nltk.__maintainer__,
-    maintainer_email = nltk.__maintainer_email__,
-    author = nltk.__author__,
-    author_email = nltk.__author__,
+    version = 3.1,
     # platforms = <platforms>,
     
     #############################################
@@ -65,4 +56,5 @@ setup(
                 'nltk_contrib.tiger.utils',
                 'nltk_contrib.toolbox'
                 ],
+    install_requires = ['setuptools', 'nltk']
     )
