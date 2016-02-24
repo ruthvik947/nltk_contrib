@@ -17,7 +17,7 @@ setup(
     name = "nltk_contrib",
     description = "NLTK-Contrib",
     
-    version = 3.1,
+    version = '3.1',
     # platforms = <platforms>,
     
     #############################################
