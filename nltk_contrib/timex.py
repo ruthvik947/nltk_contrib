@@ -76,7 +76,7 @@ def tag(text):
     for timex in timex_found:
         text = re.sub(timex + '(?!</TIMEX2>)', '<TIMEX2>' + timex + '</TIMEX2>', text)
 
-    return text
+    return timex_found
 
 # Hash function for week days to simplify the grounding task.
 # [Mon..Sun] -> [0..6]
